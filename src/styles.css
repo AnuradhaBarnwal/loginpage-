@@ -1,1 +1,122 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background-image: url(./assets/images/banner2.jpg);
+  min-height: 720px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+h1 {
+  position: absolute;
+  margin-top: 0.2em;
+  padding-left: 1em;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: rgb(72, 72, 77);
+}
+
+h3{
+  position: absolute;
+  font-size: 4em;
+  color: aqua;
+  padding-left: 2.5em;
+}
+
+p{
+  position: absolute;
+  font-size: 1.5em;
+  padding-left: 7em;
+  margin-top: 8em;
+  color: #ffffff;
+  
+}
+
+.nav-item {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2em;
+  margin-top: 0%;
+  list-style: none;
+  background-color: rgb(179, 192, 188);
+}
+
+.nav-list {
+  margin: 1em;
+}
+
+.nav-list a {
+  color: dimgray;
+  text-decoration: none;
+}
+
+.form-container {
+  position: absolute;
+  background: rgb(245, 236, 236);
+  width: 25%;
+  height: 70%;
+  top: 7em;
+  right: 4em;
+  border: none;
+  border-radius: 4px;
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2 {
+  color: cadetblue;
+  margin: 1em 0 0 0.5em;
+  font-size: 3em;
+}
+
+label {
+  margin: 2em 1em 0.5em 0.5em;
+  font-size: 1.5em;
+  color: #89909b;
+}
+
+input {
+  position: relative;
+  padding: 0em;
+  margin: 0 1em 0 1em;
+  height: 3.5em;
+  border: none;
+  background-color: rgb(236, 223, 223);
+}
+
+button {
+  position: absolute;
+  bottom: 1.8em;
+  right: 4.5em;
+  margin: 1em;
+  width: 40%;
+  height: 1.7em;
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: rgb(0, 0, 255);
+  border:none;
+  border-radius: 4px;
+  background: #83a4d4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.nav-list .active{
+  color: rgb(9, 41, 41);
+}
+.nav-list .active:hover{
+  color: blue;
+}
